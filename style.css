@@ -32,6 +32,14 @@ padding-bottom: 50px;
 margin: 20px;
 }
 
+.attribution {
+    font-size: 11px; text-align: center;
+    }
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
 /* this is the media quiry section  */
 
 @media(min-width:375px) {
@@ -60,18 +68,10 @@ margin: 20px;
         margin-left: 40px;
         margin-right: 40px;
     }
-.botton-text p {
-    color: hsl(220, 15%, 55%);
-    font-size: 15px;
-    padding-bottom: 50px;
-    margin: 20px;
-}
-}
-
-.attribution {
-    font-size: 11px; text-align: center;
+    .botton-text p {
+        color: hsl(220, 15%, 55%);
+        font-size: 15px;
+        padding-bottom: 50px;
+        margin: 20px;
     }
-
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-    }
+}
