@@ -1,10 +1,11 @@
+body {
+    background-color: aqua;
+}
 /*this is for desktop view*/
 body {
     background-color: hsl(217, 100%, 97%);
     margin: auto;
     padding: 4%;
-    font-size: 16px;
-    font-family: 'Ubuntu', sans-serif;
 }
 .container {
     display: flex;
@@ -38,7 +39,7 @@ input[type="number"] {
     border-radius: 5px;
     cursor: pointer;
     opacity: 0.8;
-    margin-left: 20%;
+    margin-left: 48%;
     margin-top: 30px;
     text-decoration: none;
 }
@@ -82,9 +83,6 @@ ol {
     text-align: center;
     padding: 4px;
     margin: 10px;
-  }
-  .h-items {
-    text-align: start;
   }
   .all-emt-list-lin {
     display: block;
@@ -135,8 +133,17 @@ ol {
     display: flex;
     justify-content: space-around;
 }
-.go-back {
+
+.goback-next a {
+    color: blue;
     text-decoration: none;
+}
+
+.goback-next a:hover{
+    text-decoration: underline;
+
+}
+.go-back {
     padding-top: 40px;
 }
 
