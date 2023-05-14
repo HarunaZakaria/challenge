@@ -1,0 +1,150 @@
+/* this section isthe media query for the mobile responsive design. */
+
+@media(max-width:600px) {
+    body {
+        background-color: hsl(217, 100%, 97%);
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+    }
+    .container {
+        justify-content: center;  
+        text-align: center;
+        background-color: white;
+        margin-left: 5%;
+        width: 90%;
+        border-radius: 15px;
+        display: inline-block;
+        padding-top:20px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+        width: 90%;
+        padding: 15px;
+        display: inline-block;
+        margin: 5px 0 22px 0;
+        border: solid #adbeff 1px;
+        border-radius: 5px;
+        background: white;
+    }
+    .all-form {
+        text-align: start;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .all-emt-list-lin {
+        display: flex;
+        align-items: center;
+    }
+    .sidebar {
+        margin: 0;
+        background-color: brown;
+        background-image: url(images/bg-sidebar-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .all-emt-list-lin {
+        padding: 40px;
+        
+    }
+    ol {
+        list-style: none;
+        counter-reset: li-counter;
+        padding-left: 90px;
+    }
+    
+    ol li {
+        counter-increment: li-counter;
+        
+    }
+    
+    ol li::before {
+        content: counter(li-counter);
+        color: #59cbbe;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #d6d9e6;
+        border-radius: 50px;
+        display: inline-block;
+        text-align: center;
+        padding: 4px;
+        margin: 10px;
+    }
+    .main-footer {
+        margin-top: 20%;
+        background-color: white;
+        height: 80px;
+    }
+    button {
+        background-color: hsl(213, 96%, 18%);
+        padding: 12px;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 1px;
+        opacity: 0.8;
+        margin-left: 75%;
+        margin-top: 20px;
+
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+
+    }
+}
+/*
+.sidebar {
+    margin-left: 10%;
+    width: 300px;
+    height: 70%;
+    position:absolute;
+    background-image: url('images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+Send a message.
+
+·
+
+.sidebar ol {
+padding: 20px;
+margin: 20px;
+}
+
+.sidebar li {
+border-radius: 10px;
+padding: 10px;
+}
+
+.sidebar a {
+display: block;
+color: #000;
+text-decoration: none;
+}
+
+.sidebar a:hover {
+background-color: #ddd;
+}
+*/
+
+.main-bar{
+    margin-left: 15%;
+}
+     
+
+
+
+
+/* this is for mobile view */
+
+
+@media only screen and (max-width: 767px){
+   
+}
