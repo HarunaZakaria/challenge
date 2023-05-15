@@ -78,22 +78,47 @@
         background-color: white;
         height: 80px;
     }
+    .se-main-footer {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .se-main-footer > a{
+        text-decoration: none;
+    }
     button {
         background-color: hsl(213, 96%, 18%);
         padding: 12px;
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        border-radius: 1px;
+        border-radius: 10px;
         opacity: 0.8;
-        margin-left: 75%;
-        margin-top: 20px;
+        margin-left: 250px;
+
+    
 
     }
     button a{
         text-decoration: none;
         color: white;
 
+    }
+
+    .three-items {
+        display: block;
+        justify-content: space-evenly;
+    }
+    .img-pri {
+        border-radius: 10px;
+        display: flex;
+        border: black solid 1px;
+        margin: 10px;
+    }
+    .img {
+        padding: 20px;
     }
 }
 /*
